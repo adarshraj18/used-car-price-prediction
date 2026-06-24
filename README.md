@@ -4,8 +4,25 @@ Predicting the resale price of used cars in India using machine learning, based 
 real listings scraped from [CarDekho.com](https://www.cardekho.com/).
 
 > **Author:** Adarsh Raj
-> **Type:** End-to-end supervised regression project
+> **Type:** End-to-end supervised regression project + interactive web app
 > **Best model:** Random Forest Regressor — **0.93 test R²**
+
+---
+
+## 🖥️ Try the App
+
+An interactive **Streamlit app** ([`app.py`](app.py)) lets anyone enter a car's
+details (model, age, km driven, engine, power, fuel, transmission…) and get an
+instant predicted resale price.
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+The app trains the model once on startup (cached), so there's no large model file to
+download — just clone and run. It also deploys for free on
+[Streamlit Community Cloud](https://streamlit.io/cloud) straight from this repo.
 
 ---
 
@@ -76,6 +93,7 @@ jupyter notebook Used_Car_Price_Prediction.ipynb
 ```
 .
 ├── Used_Car_Price_Prediction.ipynb   # Main analysis & modelling notebook
+├── app.py                             # Interactive Streamlit price-predictor app
 ├── data/
 │   └── cardekho_imputated.csv         # Dataset
 ├── requirements.txt                   # Python dependencies

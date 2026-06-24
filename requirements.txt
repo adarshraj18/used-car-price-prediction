@@ -5,3 +5,4 @@ matplotlib>=3.6
 seaborn>=0.12
 plotly>=5.11
 jupyter>=1.0
+streamlit>=1.30
