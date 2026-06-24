@@ -11,7 +11,7 @@ real listings scraped from [CarDekho.com](https://www.cardekho.com/).
 
 ## 🖥️ Try the App
 
-An interactive **Streamlit app** ([`app.py`](app.py)) lets anyone enter a car's
+An interactive **Streamlit app** (https://pknv4zzwdmkjc5mwyasfzg.streamlit.app/) lets anyone enter a car's
 details (model, age, km driven, engine, power, fuel, transmission…) and get an
 instant predicted resale price.
 
