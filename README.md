@@ -1,4 +1,4 @@
-# 🚗 Used Car Price Prediction
+# Used Car Price Prediction
 
 Predicting the resale price of used cars in India using machine learning, based on
 real listings scraped from [CarDekho.com](https://www.cardekho.com/).
@@ -28,7 +28,7 @@ download — just clone and run. It also deploys for free on
 
 ## 📌 Problem
 
-Used-car pricing in India is inconsistent and opaque — sellers rarely have a reliable
+Used-car pricing in India is inconsistent and opaque, sellers rarely have a reliable
 reference for what their vehicle is worth. This project builds a model that predicts a
 car's **selling price** from its core attributes, which could power a price-suggestion
 feature that gives sellers an instant, data-backed estimate.
