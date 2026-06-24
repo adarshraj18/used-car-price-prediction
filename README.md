@@ -15,15 +15,6 @@ An interactive **Streamlit app** (https://pknv4zzwdmkjc5mwyasfzg.streamlit.app/)
 details (model, age, km driven, engine, power, fuel, transmission…) and get an
 instant predicted resale price.
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-The app trains the model once on startup (cached), so there's no large model file to
-download — just clone and run. It also deploys for free on
-[Streamlit Community Cloud](https://streamlit.io/cloud) straight from this repo.
-
 ---
 
 ## 📌 Problem
